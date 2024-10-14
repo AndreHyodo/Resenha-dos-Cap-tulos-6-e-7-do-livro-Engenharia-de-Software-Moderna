@@ -1,2 +1,27 @@
 # Resenha-dos-Cap-tulos-6-e-7-do-livro-Engenharia-de-Software-Moderna
 Resenha dos Capítulos 6 e 7 do livro Engenharia de Software Moderna
+
+https://engsoftmoderna.info/
+
+Cap. 6: Padrões de Projeto (https://engsoftmoderna.info/cap6.html)
+Cap. 7: Arquitetura (https://engsoftmoderna.info/cap7.html)
+
+O capítulo 6 do livro Engenharia de Software Moderna apresenta uma análise detalhada sobre os padrões de projeto, que são soluções amplamente reconhecidas e reutilizáveis para problemas recorrentes no desenvolvimento de software. Esses padrões surgiram como respostas a desafios de flexibilidade e manutenibilidade enfrentados durante o design de sistemas. O texto explora três categorias principais de padrões: criacionais, estruturais e comportamentais, cada uma com seu papel específico no desenvolvimento de sistemas robustos e escaláveis.
+
+Os padrões criacionais tratam de maneiras eficientes de criar objetos, permitindo maior flexibilidade e controle no processo de instanciação. Ao utilizar esses padrões, os desenvolvedores evitam a criação rígida e repetitiva de objetos, possibilitando a criação de componentes mais modulares e adaptáveis às mudanças. Padrões como o Factory Method e o Singleton são exemplos citados que resolvem o problema de criação de objetos de maneira flexível, garantindo que o sistema possa crescer sem depender de uma arquitetura de criação estática e ineficaz.
+
+No que diz respeito aos padrões estruturais, o texto destaca a importância de organizar as classes e os objetos de forma eficiente, permitindo a composição e interação entre eles de maneira clara e coesa. A aplicação desses padrões ajuda a reduzir a complexidade das interações entre os componentes do sistema. Um exemplo citado é o padrão Adapter, que facilita a integração de classes com interfaces incompatíveis, resolvendo problemas comuns de comunicação entre partes do sistema que originalmente não foram projetadas para funcionar juntas. Outro exemplo é o padrão Composite, que permite tratar tanto objetos individuais quanto composições de objetos de maneira uniforme, tornando o design mais simples e permitindo que o sistema evolua com maior facilidade.
+
+Os padrões comportamentais abordam como as classes e os objetos se comunicam e colaboram para realizar tarefas complexas. Eles ajudam a definir fluxos de trabalho e interações sem que os objetos precisem estar rigidamente acoplados. Um dos padrões destacados é o Observer, amplamente utilizado em sistemas baseados em eventos, onde mudanças no estado de um objeto são automaticamente refletidas em outros objetos dependentes, sem que haja uma forte dependência entre eles. Esse padrão é particularmente útil em sistemas que requerem atualizações dinâmicas e em tempo real, como interfaces gráficas ou sistemas de notificação. Outro exemplo é o Strategy, que permite que diferentes algoritmos sejam selecionados em tempo de execução, promovendo flexibilidade no comportamento do sistema sem alterar o código base.
+
+Embora os padrões de projeto ofereçam soluções comprovadas, o autor adverte sobre o uso excessivo ou inadequado desses padrões. Aplicar padrões sem uma necessidade real pode tornar o sistema excessivamente complexo, adicionando camadas de abstração desnecessárias. O equilíbrio entre simplicidade e flexibilidade é essencial, e o uso de padrões deve ser sempre justificado pelo contexto do problema que se deseja resolver.
+
+Já o capítulo 7 do Engenharia de Software Moderna oferece uma visão fascinante sobre a arquitetura de software e sua relevância no desenvolvimento de sistemas. Ele começa explicando que a arquitetura não é apenas um conjunto de regras, mas a estrutura que guia todo o processo de desenvolvimento, influenciando tanto o desempenho quanto a manutenibilidade do software.
+
+Um conceito crucial abordado é a "dívida técnica". À medida que um projeto avança, decisões rápidas podem acumular problemas que complicam mudanças futuras. O texto enfatiza que, embora seja tentador ignorar essas dívidas para cumprir prazos, elas podem se transformar em um verdadeiro peso a longo prazo. Aqui, a refatoração é apresentada como uma solução vital, permitindo que os desenvolvedores limpem o código e melhorem sua estrutura sem ter que reescrever tudo do zero. Essa prática ajuda a manter o software mais leve e ágil.
+
+A modularidade é outro ponto chave discutido. O autor argumenta que dividir o sistema em partes menores e independentes não apenas torna o código mais fácil de entender, mas também facilita a colaboração em equipe. Cada módulo pode ser trabalhado separadamente, reduzindo o risco de conflitos e melhorando a eficiência. Essa separação de preocupações é essencial, especialmente em projetos grandes onde várias pessoas estão envolvidas.
+
+Além disso, o texto fala sobre a importância de usar métricas para acompanhar a saúde da arquitetura ao longo do tempo. Ao medir fatores como complexidade do código e tempo de resposta, as equipes podem tomar decisões mais informadas sobre onde precisam focar seus esforços de melhoria. Essa abordagem baseada em dados ajuda a evitar que os problemas se acumulem a ponto de se tornarem ingovernáveis.
+
+O capítulo também reflete sobre a evolução constante da arquitetura de software. Em um campo tão dinâmico, os desenvolvedores precisam estar abertos a mudanças e dispostos a adotar novas práticas. Isso não significa abandonar o que já funciona, mas sim adaptar-se e evoluir continuamente, garantindo que o software permaneça relevante e eficaz.
